@@ -10,35 +10,39 @@
     <title>پروکسی رایگان تلگرام</title>
 </head>
 <body id="top">
-    <div class="container mt-5">
+    <div class="container mt-2">
         <div class="row">
             <div class="col-sm col-md-6">
                 <div>
                     <h2>پروکسی اتصال به تلگرام MTPROTO</h2>
                     <hr>
                     <div class="alert alert-primary" role="alert">جهت اتصال راحت روی <strong>لینک های هاست</strong> کلیک کنید.</div>
-                    <table class="table table-striped table-success table-hover">
-                        <thead class="text-center">
-                            <tr>
-                                <th scope="col">ردیف</th>
-                                <th scope="col">هاست</th>
-                                <th scope="col">پورت</th>
-                                <th scope="col">کشور</th>
-                                <th scope="col">پینگ</th>
-                            </tr>
-                        </thead>
-                        <tbody id="vpn"></tbody>
-                    </table>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-success table-hover">
+                            <thead class="text-center">
+                                <tr>
+                                    <th scope="col">ردیف</th>
+                                    <th scope="col">هاست</th>
+                                    <th scope="col">پورت</th>
+                                    <th scope="col">کشور</th>
+                                    <th scope="col">پینگ</th>
+                                </tr>
+                            </thead>
+                            <tbody id="vpn"></tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
             <div class="col-sm col-md-6">
                 <h2>معرفی سایت</h2>
                 <hr>
-                <a href="https://music100.ir/" target="_blank"><img src="./assets/images/music100.webp" class="rounded" width="400" height="65" alt="دانلود آهنگ جدید"></a>
+                <div>
+                    <a href="https://music100.ir/" target="_blank"><img src="./assets/images/music100.webp" class="rounded mb-4 img-fluid" width="400" height="65" alt="دانلود آهنگ جدید"></a>
+                </div>
             </div>
         </div>
     </div>
-    <a href="#top" class="btn btn-primary position-fixed bottom-0 end-0 mb-md-4 me-md-4 mb-sm-1 me-sm-1" role="button"><i class="fas fa-chevron-up"></i></a>
+    <a href="#top" class="btn btn-primary position-fixed bottom-0 end-0 mb-4 me-4" role="button"><i class="fas fa-chevron-up"></i></a>
     <script src="./js/vendor/bootstrap.bundle.min.js"></script>
     <script src="./js/app.js"></script>
 </body>
